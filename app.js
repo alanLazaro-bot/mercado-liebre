@@ -14,7 +14,7 @@ res.sendFile(file);
 
 app.get('/index.css', function (req, res){
 
-    let file= path.resolve ('public/styles/index.css')
+    let file= path.resolve ('styles/index.css')
     
     res.sendFile(file);
     
@@ -39,7 +39,7 @@ res.send('Not Found')
         console.log(req.url)
 
         if (req.url.endsWith('.css')){
-    let file = path.resolve('public/images' + req.url)
+    let file = path.resolve('public' + req.url)
     return res.sendFile(file)
 }
 
