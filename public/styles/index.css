@@ -14,7 +14,8 @@
 
  body {
 
-    background-color: var(--Gris-claro);
+    background-color: white;
+    
  }
  
 
@@ -56,9 +57,11 @@
  }
  footer{
     background-color: white;
+    display: inline-block;
  }
  article{
     background-color: white;
+    
  }
  .iconos{
 
@@ -75,4 +78,7 @@
    width: 100%;
    height: auto;
  }
- 
+ .section{
+    background-color: var(--Gris-claro);
+ }
+
