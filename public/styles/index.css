@@ -16,10 +16,12 @@
 
     background-color: var(--Gris-claro);
  }
+ 
 
  .parrafo{
     font-size:12px;
     font-family: 'Roboto', sans-serif;
+    
 
  }
 
@@ -45,5 +47,32 @@
  .descripciones{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    color: var(--Gris-oscuro);
+    
     
  }
+ .letraGris{
+    color: var(--Gris-oscuro);
+ }
+ footer{
+    background-color: white;
+ }
+ article{
+    background-color: white;
+ }
+ .iconos{
+
+   color: var(--Verde);
+ }
+
+ .iconosCelestes{
+    color:var(--Celeste);
+ }
+ li{
+   list-style-type: none;
+ }
+ .responsive {
+   width: 100%;
+   height: auto;
+ }
+ 
