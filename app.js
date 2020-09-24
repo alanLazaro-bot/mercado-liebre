@@ -19,6 +19,14 @@ app.get('/register', function (req, res){
     
     
     })
+    app.get('/register', function (req, res){
+
+        let file= path.resolve ('vistas/login.html')
+        
+        res.sendFile(file);
+        
+        
+        })
 
 app.get('/index.css', function (req, res){
 
