@@ -19,7 +19,7 @@ app.get('/register', function (req, res){
     
     
     })
-    app.get('/register', function (req, res){
+    app.get('/login', function (req, res){
 
         let file= path.resolve ('vistas/login.html')
         
