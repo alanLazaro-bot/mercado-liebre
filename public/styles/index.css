@@ -12,14 +12,29 @@
     font-family: 'Roboto', sans-serif; 
  }
 
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+ }
+
  body {
-   margin:0;
-   padding: 0;
-    background-color: white;
+  
+    background-color:var(--Gris-claro);
 
     
  }
  
+.banner{
+
+   box-sizing: content-box;
+   width: 100%;
+}
+
+
+
+
 
  .parrafo{
     font-size:12px;
@@ -57,12 +72,20 @@
  .letraGris{
     color: var(--Gris-oscuro);
  }
- footer{
+ .footer{
     background-color: white;
     display: inline-block;
+    margin: 20px 5%;
+
  }
- article{
+ .art-foot{
+    margin-top:20px ;
+ }
+
+ .article{
     background-color: white;
+    margin: 20px 15px;
+   
     
  }
  .iconos{
@@ -73,6 +96,7 @@
  .iconosCelestes{
     color:var(--Celeste);
  }
+
  li{
    list-style-type: none;
  }
@@ -83,6 +107,7 @@
  .section{
     background-color: var(--Gris-claro);
  }
+
 a{
    text-decoration: none;
 }
