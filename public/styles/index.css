@@ -25,22 +25,32 @@
 
     
  }
+
+ .pct50-cont {
+   
+   width: 50%;
+ }
  
 .banner{
 
    box-sizing: content-box;
    width: 100%;
 }
-
-
-
+.title-main{
+   
+   margin-top:20PX;
+   margin-bottom: 20px;;
+}
+.main{
+  margin:auto;
+  width: 90%; 
+}
 
 
  .parrafo{
     font-size:12px;
     font-family: 'Roboto', sans-serif;
     
-
  }
 
  .titulares{
@@ -71,27 +81,46 @@
  }
  .letraGris{
     color: var(--Gris-oscuro);
+   
  }
  .footer{
     background-color: white;
     display: inline-block;
-    margin: 20px 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:5%;
+    padding-right:5%;
 
  }
- .art-foot{
-    margin-top:20px ;
+ .art-ft{
+    margin-top:20px;
  }
+ 
 
+ 
+.ti-foot{
+   font-size:16px;
+   font-weight: bold;
+   font-family:'Roboto', sans-serif;
+   color: var(--Gris-oscuro);
+}
  .article{
     background-color: white;
-    margin: 20px 15px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    
+    padding: 15px;
    
     
  }
- .iconos{
-
+ .green-icon {
    color: var(--Verde);
- }
+   background-color: white;
+   border-radius: 50%;
+   border: 1px solid #39B54A;
+   padding: 5px;
+   display: inline-block;
+}
 
  .iconosCelestes{
     color:var(--Celeste);
@@ -100,14 +129,19 @@
  li{
    list-style-type: none;
  }
- .responsive {
-   width: 100%;
-   height: auto;
- }
+
  .section{
     background-color: var(--Gris-claro);
  }
 
 a{
    text-decoration: none;
+}
+
+.img{
+
+  width: 100%;
+  height: auto;
+
+  
 }
