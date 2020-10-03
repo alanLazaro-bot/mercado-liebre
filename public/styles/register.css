@@ -1,88 +1,197 @@
+
 :root {
-    --Amarillo: #EAC926;
-    --Azul:#03264C;
-    --Celeste:#1259c3;
-    --Gris-oscuro:#666;
-    --Gris-claro:#ebebeb;
-    --Verde:#39b54a;
-  }
-  
-  header {
-    background-color: var(--Amarillo);
-    font-family: 'Roboto', sans-serif; 
- }
-
- body {
-    margin:0;
-    padding: 0;
-
-    background-color:var(--Gris-claro);
-    
+   --Amarillo: #EAC926;
+   --Azul:#03264C;
+   --Celeste:#1259c3;
+   --Gris-oscuro:#666;
+   --Gris-claro:#ebebeb;
+   --Verde:#39b54a;
  }
  
-
- .parrafo{
-    font-size:12px;
-    font-family: 'Roboto', sans-serif;
-    
-
- }
-
- .titulares{
-     font-size:24px;
-     font-family: 'Roboto', sans-serif;
-
-
- }
- .precios{
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
- }
-
- .descuentos{
-    font-size: 16px;
-    color:var(--Verde);
-    font-family: 'Roboto', sans-serif;
-
-
- }
-
- .descripciones{
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    color: var(--Gris-oscuro);
-    
-    
- }
- .letraGris{
-    color: var(--Gris-oscuro);
- }
- footer{
-    background-color: white;
-    display: inline-block;
- }
- article{
-    background-color: white;
-    
- }
- .iconos{
-
-   color: var(--Verde);
- }
-
- .iconosCelestes{
-    color:var(--Celeste);
- }
- li{
-   list-style-type: none;
- }
- .responsive {
-   width: 100%;
-   height: auto;
- }
- .section{
-    background-color: var(--Gris-claro);
- }
-a{
-   text-decoration: none;
+ header {
+   background-color: var(--Amarillo);
+   font-family: 'Roboto', sans-serif; 
 }
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+
+}
+
+body {
+ 
+   background-color:var(--Gris-claro);
+
+   
+}
+.menu{
+
+  display:none;
+}
+
+.pct50-cont {
+  
+  width: 50%;
+}
+
+.banner{
+
+  box-sizing: content-box;
+  width: 100%;
+}
+
+
+
+
+.parrafo{
+   font-size:12px;
+   font-family: 'Roboto', sans-serif;
+   
+}
+
+.titulares{
+    font-size:24px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.title{
+   font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.descuentos{
+   font-size: 16px;
+   color:var(--Verde);
+   font-family: 'Roboto', sans-serif;
+
+
+}
+
+.descripciones{
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+   color: var(--Gris-oscuro);
+   
+   
+}
+.letraGris{
+   color: var(--Gris-oscuro);
+  
+}
+.footer{
+   background-color: white;
+   display: inline-block;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left:5%;
+   padding-right:5%;
+
+}
+.art-ft{
+   margin-top:20px;
+}
+
+
+
+.ti-foot{
+  font-size:16px;
+  font-weight: bold;
+  font-family:'Roboto', sans-serif;
+  color: var(--Gris-oscuro);
+}
+.article{
+   background-color: white;
+   margin-top:10px;
+   margin-bottom: 10px;
+   
+   padding: 15px;
+  
+   
+}
+.green-icon {
+  color: var(--Verde);
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #39B54A;
+  padding: 5px;
+  display: inline-block;
+}
+
+.iconosCelestes{
+   color:var(--Celeste);
+}
+
+li{
+  list-style-type: none;
+}
+
+.section{
+   background-color: var(--Gris-claro);
+}
+
+a{
+  text-decoration: none;
+}
+
+.img{
+
+ width: 100%;
+ height: auto;
+
+ 
+}
+
+
+.send{
+
+   color:white;
+   background-color: #0044AA;
+  
+   
+
+}
+.send:hover{
+
+   background-color: #0022AA;
+}
+
+.del{
+   color: white;
+   background-color: #AA0044;
+   
+
+}
+.del:hover{
+
+   background-color: #CC1155;
+}
+.inputs{
+
+   width: 100%;
+   margin-top:20px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   padding: 10px;
+   border:0px;
+}
+
+
+.main-pad{
+
+   padding: 10px;
+}
+.main{
+   margin:auto;
+   width: 90%; 
+ }
+ .rob-14{
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   
+ }
+ .bold{
+    font-weight: bold;
+ }
