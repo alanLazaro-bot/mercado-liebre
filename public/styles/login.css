@@ -8,7 +8,7 @@
     --Verde:#39b54a;
   }
   
-  header {
+  #navegacion {
     background-color: var(--Amarillo);
     font-family: 'Roboto', sans-serif; 
  }
@@ -26,23 +26,21 @@
 
     
  }
- .menu{
+ #navegacion.menu{
 
    display:none;
  }
 
- .pct50-cont {
+ #navegacion.pct50-cont {
    
    width: 50%;
  }
  
-.banner{
+ .banner{
 
    box-sizing: content-box;
    width: 100%;
 }
-
-
 
 
  .parrafo{
@@ -57,10 +55,7 @@
 
 
  }
- .precios{
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
- }
+ 
 
  .descuentos{
     font-size: 16px;
@@ -136,7 +131,7 @@ a{
    text-decoration: none;
 }
 
-.img{
+#navegacion.img{
 
   width: 100%;
   height: auto;
